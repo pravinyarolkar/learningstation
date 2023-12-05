@@ -19,7 +19,7 @@ if __name__ == "__main__":
     print(obj)
     # print(obj.__str__()) # works same way
     print(len(obj))
-
+    
     del obj
 
     try:
