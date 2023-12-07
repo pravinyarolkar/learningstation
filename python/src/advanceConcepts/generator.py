@@ -4,7 +4,7 @@
 def get_val():
     result = 1
     while True:
-        yield result
+        yield result # execution halts here till we have next call to read data
         result *= 3
 
 values = get_val()
