@@ -14,3 +14,8 @@ print(next(values))
 print(next(values))
 print(next(values))
 print(next(values))
+
+for i in values:
+    if i > 50000:
+        break
+    print(i)
