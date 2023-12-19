@@ -1,0 +1,45 @@
+What happens after a computer processes lots of information? It needs to take a data dump. Accordingly, the json library exposes the dump() method for writing data to files. There is also a dumps() method (pronounced as “dump-s”) for writing to a Python string.Yikes! That sounds pretty technical. Definitely. But in reality, all we’re talking about here is reading and writing. Think of it like this: encoding is for writing data to disk, while decoding is for reading data into memory.The process of encoding JSON is usually called serialization. This term refers to the transformation of data into a series of bytes (hence serial) to be stored or transmitted across a network. You may also hear the term marshaling, but that’s a whole other discussion. Naturally, deserialization is the reciprocal process of decoding data that has been stored or delivered in the JSON standard.Whew! You survived your first encounter with some wild JSON. Now you just need to learn how to tame it.
+
+Python Supports JSON Natively!
+Python comes with a built-in package called json for encoding and decoding JSON data.
+
+Just throw this little guy up at the top of your file:What happens after a computer processes lots of information? It needs to take a data dump. Accordingly, the json library exposes the dump() method for writing data to files. There is also a dumps() method (pronounced as “dump-s”) for writing to a Python string.Yikes! That sounds pretty technical. Definitely. But in reality, all we’re talking about here is reading and writing. Think of it like this: encoding is for writing data to disk, while decoding is for reading data into memory.The process of encoding JSON is usually called serialization. This term refers to the transformation of data into a series of bytes (hence serial) to be stored or transmitted across a network. You may also hear the term marshaling, but that’s a whole other discussion. Naturally, deserialization is the reciprocal process of decoding data that has been stored or delivered in the JSON standard.Whew! You survived your first encounter with some wild JSON. Now you just need to learn how to tame it.
+
+Python Supports JSON Natively!
+Python comes with a built-in package called json for encoding and decoding JSON data.
+
+Just throw this little guy up at the top of your file:As you can see, JSON supports primitive types, like strings and numbers, as well as nested lists and objects.
+
+Wait, that looks like a Python dictionary! I know, right? It’s pretty much universal object notation at this point, but I don’t think UON rolls off the tongue quite as nicely. Feel free to discuss alternatives in the comments.{
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "hobbies": ["running", "sky diving", "singing"],
+    "age": 35,
+    "children": [
+        {
+            "firstName": "Alice",
+            "age": 6
+        },
+        {
+            "firstName": "Bob",
+            "age": 8
+        }
+    ]
+}As you can see, JSON supports primitive types, like strings and numbers, as well as nested lists and objects.
+
+Wait, that looks like a Python dictionary! I know, right? It’s pretty much universal object notation at this point, but I don’t think UON rolls off the tongue quite as nicely. Feel free to discuss alternatives in the comments.{
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "hobbies": ["running", "sky diving", "singing"],
+    "age": 35,
+    "children": [
+        {
+            "firstName": "Alice",
+            "age": 6
+        },
+        {
+            "firstName": "Bob",
+            "age": 8
+        }
+    ]
+}

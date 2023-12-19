@@ -1,0 +1,1 @@
+What happens after a computer processes lots of information? It needs to take a data dump. Accordingly, the json library exposes the dump() method for writing data to files. There is also a dumps() method (pronounced as “dump-s”) for writing to a Python string.

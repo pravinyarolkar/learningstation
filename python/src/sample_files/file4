@@ -1,0 +1,6 @@
+Whew! You survived your first encounter with some wild JSON. Now you just need to learn how to tame it.
+
+Python Supports JSON Natively!
+Python comes with a built-in package called json for encoding and decoding JSON data.
+
+Just throw this little guy up at the top of your file:

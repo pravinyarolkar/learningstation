@@ -1,0 +1,3 @@
+As you can see, JSON supports primitive types, like strings and numbers, as well as nested lists and objects.
+
+Wait, that looks like a Python dictionary! I know, right? It’s pretty much universal object notation at this point, but I don’t think UON rolls off the tongue quite as nicely. Feel free to discuss alternatives in the comments.
